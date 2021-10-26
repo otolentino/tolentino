@@ -1,5 +1,5 @@
 body {
-    background: darkgrey;    
+    background: darkgrey;
 }
 
 .contenedor{
@@ -26,7 +26,7 @@ body {
 }
 
 #pestanas ul{
-    margin-left: -40px;    
+    margin-left: -40px;
 }
 
 #pestanas li{
@@ -48,7 +48,7 @@ body {
 }
 
 #contenidopestanas{
-    clear: both;  
+    clear: both;
     background: dimgray;
     padding: 20px 0px 20px 20px;
     border-radius: 5px;
