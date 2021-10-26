@@ -10,15 +10,15 @@
     <body onload="javascript:cambiarPestanna(pestanas,pestana1);">
       <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
         <div class="contenedor">
-            <div class="titulo">¿Sobre que escribiré en el blog?</div>
+            <div class="titulo">La forma elegante de poner en OFFLINE la base de datos</div>
             <div id="pestanas">
                 <ul id=lista>
-                    <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>HTML</a></li>
-                    <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>CSS</a></li>
-                    <li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>JavaScript</a></li>
-                    <li id="pestana4"><a href='javascript:cambiarPestanna(pestanas,pestana4);'>PHP</a></li>
-                    <li id="pestana5"><a href='javascript:cambiarPestanna(pestanas,pestana5);'>Java EE</a></li>
-                    <li id="pestana6"><a href='javascript:cambiarPestanna(pestanas,pestana6);'>Android</a></li>
+                    <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>SQL 2019</a></li>
+                    <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>SQL 2017</a></li>
+                    <li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>SQL 2016</a></li>
+                    <li id="pestana4"><a href='javascript:cambiarPestanna(pestanas,pestana4);'>SQL 2014</a></li>
+                    <li id="pestana5"><a href='javascript:cambiarPestanna(pestanas,pestana5);'>SQL 2012</a></li>
+                    <li id="pestana6"><a href='javascript:cambiarPestanna(pestanas,pestana6);'>SQL 2008</a></li>
 <li id="pestana7"><a href='javascript:cambiarPestanna(pestanas,pestana7);'>Contenido HTML</a></li>
                 </ul>
             </div>
@@ -27,7 +27,10 @@
 
             <div id="contenidopestanas">
                 <div id="cpestana1">
-                   HTML, siglas de HyperText Markup Language («lenguaje de marcado de hipertexto»), hace referencia al lenguaje de marcado predominante para la elaboración de páginas web que se utiliza para describir y traducir la estructura y la información en forma de texto, así como para complementar el texto con objetos tales como imágenes. El HTML se escribe en forma de «etiquetas», rodeadas por corchetes angulares (<,>). HTML también puede describir, hasta un cierto punto, la apariencia de un documento, y puede incluir un script (por ejemplo JavaScript), el cual puede afectar el comportamiento de navegadores web y otros procesadores de HTML.
+                   ALTER DATABASE aquivaelnombredelabasededatos SET RESTRICTED_USER WITH ROLLBACK IMMEDIATE;
+                   ALTER DATABASE aquivaelnombredelabasededatos SET MULTI_USER;
+                   ALTER DATABASE aquivaelnombredelabasededatos SET OFFLINE WITH ROLLBACK IMMEDIATE;
+
                 </div>
                 <div id="cpestana2">
                     El nombre hojas de estilo en cascada viene del inglés Cascading Style Sheets, del que toma sus siglas. CSS es un lenguaje usado para definir la presentación de un documento estructurado escrito en HTML o XML2 (y por extensión en XHTML). El W3C (World Wide Web Consortium) es el encargado de formular la especificación de las hojas de estilo que servirán de estándar para los agentes de usuario o navegadores.

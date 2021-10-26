@@ -1,11 +1,11 @@
 body {
-    background: darkgrey;
+    background: gainsboro;
 }
 
 .contenedor{
     width: 1080px;
     margin: auto;
-    background: black;
+    background: mediumseagreen;
     color: bisque;
     padding: 20px 15px 50px 50px;
     border-radius: 10px;
